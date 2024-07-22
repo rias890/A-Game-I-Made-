@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+
+        function Cave_Game() {
+        
+            alert("It is a dark and rainy night")
+            alert("You are leading a group of 100 warriors to retrieve some treasure")
+            alert("The treasure is up in the mountains, deep in the caves")
+            alert("Holy spirits have guarded the treasure for years by moving it around 3 caves")
+            alert("Fire-breathing dragons live in 2 of the caves while the 3rd has the treasure")
+            alert("You, as leader of the group, have to choose which cave to enter")
+            alert("If you enter a cave with a dragon in it: YOU RUN FOR YOUR LIFE")
+            alert("If you enter the cave with the treasure in it: YOU LIVE A LIFE OF PLENTY")
+            let user_answer = prompt("Enter a number between 1 to 3, this will decide your fate")
+            if (user_answer == 1) {
+                alert("YOU WILL LIVE A LIFE OF PLENTY")
+            }
+
+             if (user_answer == 2) {
+                alert("YOU MUST RUN FOR YOUR LIFE YOU have ENTERED A CAVE WITH A DRAGON!!!!!!")
+            }
+
+            if (user_answer == 3) {
+                alert("YOU MUST RUN FOR YOUR LIFE YOU have ENTERED A CAVE WITH A DRAGON!!!!!!")
+            }
+
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+    <button onclick="Cave_Game()" class="btn btn-outline-warning btn-lg btn-block ">Click Me </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Links</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Other
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">More Games</a>
+         
+      </li>
+    
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4" >
+        <div class="card">
+            <div class="card-header"></div>
+            <div class="card-body"><div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="games.jpg" alt="Card image cap" width="200" height="200">
+                <div class="card-body">
+                  <h5 class="card-title">More Games </h5>
+                  <p class="card-text">Some more quick games to play. </p>
+                  <a href="#" class="btn btn-dark">Look at Games</a>
+                </div>
+              </div></div>
+            <div class="card-footer"></div>
+          </div>
+      </div>
+      <div class="col-sm-4" >
+        <div class="card">
+            <div class="card-header"></div>
+            <div class="card-body"><div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="help.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Service and Help</h5>
+                  <p class="card-text">Ask our associates questions if you have any trouble with our services.</p>
+                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                </div>
+              </div></div>
+            <div class="card-footer"></div>
+          </div>
+      </div>
+      <div class="col-sm-4" >
+        <div class="card">
+            <div class="card-header"></div>
+            <div class="card-body"><div class="card" width= "60" height="60">
+                <img class="card-img-top" src="hearts.gif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Lives Increaser</h5>
+                  <p class="card-text">Win packs to increase live during battle.</p>
+                  <a href="#" class="btn btn-dark">Lives Increaser</a>
+                </div>
+              </div></div>
+            <div class="card-footer"></div>
+          </div>
+      </div> 
+    </div>
+     <div class="row">
+        <div class="col-sm-4" >
+            <div class="card">
+                <div class="card-header"></div>
+                <div class="card-body"><div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="computer.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Game Developer</h5>
+                      <p class="card-text">Go to platfroms that link with our site to develope games and upload them for others to play.</p>
+                      <a href="#" class="btn btn-dark">Game Developer</a>
+                    </div>
+                  </div></div>
+                <div class="card-footer"></div>
+              </div>
+          </div>
+          <div class="col-sm-4" >
+            <div class="card">
+                <div class="card-header"></div>
+                <div class="card-body"><div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="comments.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Comments</h5>
+                      <p class="card-text">Post about what you think about the game, giving us feedback will help improve the game.  </p>
+                      <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                  </div></div>
+                <div class="card-footer"></div>
+              </div>
+          </div>
+          <div class="col-sm-4" >
+            <div class="card">
+                <div class="card-header"></div>
+                <div class="card-body"><div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="backstory.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Backstory Pack</h5>
+                      <p class="card-text">A creative touch that allows a user to generate a backstory during a game and see others backstories. This option helps a user to trade sides, and help others, or betray those one their own team.</p>
+                      <a href="#" class="btn btn-dark">Backstory Pack</a>
+                    </div>
+                  </div></div>
+                <div class="card-footer"></div>
+              </div>
+          </div>  
+    </div>
+  </div>
+</body>
+
+</html>
